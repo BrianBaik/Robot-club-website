@@ -37,6 +37,7 @@ const TutorialPage = () => {
         <div className="footer-bottom">
           <div className="footer-logo">UMN Robot Sumo Club</div>
         </div>
+        
       </footer>
 
     </div>
