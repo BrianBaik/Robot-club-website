@@ -81,7 +81,7 @@ const TutorialPage = () => {
           </div>
         </div>
       </footer>
-
+ 
     </div>
   );
 };
