@@ -55,30 +55,30 @@ const TutorialPage = () => {
 
       <section className="tutorial">
         <h2>CAD Tutorials</h2>
-        <p>Coming soon: Learn how to design and simulate your robot using CAD tools.</p>
+        <p>Learn how to design and simulate your robot using CAD tools.</p>
         <hr className="section-divider" />
       </section>
 
       <section className="tutorial">
         <h2>3D Printing in Anderson Labs</h2>
-        <p>Coming soon: Discover how to use 3D printing resources at Anderson Labs for your projects.</p>
-        <hr className="section-divider" />
-      </section>
-
-      <section className="tutorial">
-        <h2>Coding on HTML</h2>
-        <p>Coming soon: Master the basics of HTML and create interactive pages for your robot projects.</p>
+        <p>Discover how to use 3D printing resources at Anderson Labs for your projects.</p>
         <hr className="section-divider" />
       </section>
 
       <footer className="footer">
-        <h3>Connect with us!</h3>
-        <div className="social-media-links">
+      <h3>Connect with us</h3>
+        <div className="social-links">
           <div className="social-link">Instagram</div>
           <div className="social-link">LinkedIn</div>
+          <div className="social-link">Discord</div>
         </div>
         <div className="footer-bottom">
-          <div className="footer-logo">UMN Robot Sumo Club</div>
+          <div className="footer-logo">Robot Sumo Club</div>
+          <div className="footer-nav">
+            <span>Instagram</span>
+            <span>Discord</span>
+            <span>LinkedIn</span>
+          </div>
         </div>
       </footer>
 
