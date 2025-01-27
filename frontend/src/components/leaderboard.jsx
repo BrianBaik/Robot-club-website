@@ -1,33 +1,54 @@
 import React from 'react';
-import './leaderboard.css';
+import './MainPage.css';
 
 
 const leaderboard = () => {
   return (
-    <div className="main-page">
-    
+    <div className="leaderboard">
       <section className="intro">
         <h1>UMN ROBOT SUMO CLUB</h1>
-        <p>The First Robot Sumo Club at UMN</p>
-        <div className="intro-buttons">
-          <button className="first-button">Join!</button>
-        </div>
+        <h2>Leaderboard</h2>
       </section>
-
-      <section className="activities">
-        <h2>WHAT WE DO!</h2>
+      <section className="table">
+        <table>
+            <tr>
+                <th>Standing</th>
+                <th>Robot Name</th>
+                <th>Team Name</th>
+                <th>Win/Loss</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
       </section>
-
-      <section className="about-section">
-      <h1 className="about-title">About Us</h1>
-      <p className="about-text">
-        We are the first Robot Sumo Club at UMN!
-        </p>
-         <p className="about-text">
-        Our <span className="about-highlight">mission</span> is 
-        </p>
-   
-    </section>
 
       <footer className="footer">
       <h3>Connect with us</h3>
