@@ -7,7 +7,7 @@ const MainPage = () => {
     <div className="main-page">
     
       <section className="intro">
-        <h1>UMN ROBOT SUMO CLUB</h1>
+        <h1>ROBOT SUMO CLUB @ UMN</h1>
         <p>The First Robot Sumo Club at UMN</p>
         <div className="intro-buttons">
           <button className="first-button">Join!</button>
